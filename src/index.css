@@ -1,12 +1,12 @@
 :root {
-  --bg: #0a0e14;
-  --bg-alt: #10151f;
-  --text: #b7c0cc;
-  --text-h: #eef1f5;
-  --text-dim: #6b7480;
-  --border: #1e2531;
-  --accent: #5b9dff;
-  --accent-dim: rgba(91, 157, 255, 0.12);
+  --bg: #242b38;
+  --bg-alt: #2d3545;
+  --text: #ccd3dd;
+  --text-h: #f8f9fb;
+  --text-dim: #939dad;
+  --border: #3c4557;
+  --accent: #7db0ff;
+  --accent-dim: rgba(125, 176, 255, 0.16);
 
   --sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, 'SF Mono', Consolas, monospace;
