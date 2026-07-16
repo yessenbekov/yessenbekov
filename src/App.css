@@ -10,13 +10,49 @@
   border-bottom: 1px solid var(--border);
 }
 
+.hero-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
 .eyebrow {
   font-family: var(--mono);
   font-size: 13px;
   color: var(--accent);
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 16px;
+}
+
+.lang-switcher {
+  display: flex;
+  gap: 4px;
+}
+
+.lang-switcher button {
+  font-family: var(--mono);
+  font-size: 12px;
+  padding: 4px 9px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+}
+
+.lang-switcher button:hover {
+  color: var(--text-h);
+  border-color: var(--accent);
+}
+
+.lang-switcher button.active {
+  color: var(--accent);
+  border-color: var(--accent);
+  background: var(--accent-dim);
 }
 
 .hero h1 {
@@ -216,6 +252,89 @@ main h2 {
 
 .project-links a:hover {
   text-decoration: underline;
+}
+
+/* Services */
+.services-heading {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+#services > p {
+  font-size: 15px;
+  margin-bottom: 24px;
+  max-width: 60ch;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 14px;
+  margin-bottom: 32px;
+}
+
+.service-card {
+  padding: 18px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-alt);
+}
+
+.service-card h4 {
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: var(--text);
+  margin: 0;
+}
+
+.services-meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 24px 0;
+  margin-bottom: 24px;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.services-meta h4 {
+  font-size: 12px;
+  font-family: var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+}
+
+.services-meta p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.services-cta {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 14px;
+  color: var(--accent);
+  text-decoration: none;
+  border: 1px solid var(--accent);
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background 0.15s ease;
+}
+
+.services-cta:hover {
+  background: var(--accent-dim);
+}
+
+@media (max-width: 640px) {
+  .services-meta {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* Footer */
