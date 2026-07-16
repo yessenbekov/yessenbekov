@@ -103,8 +103,8 @@ export const translations = {
     },
     services: {
       eyebrow: 'Services',
-      heading: 'TY Group — IT solutions, done right',
-      intro: "Outside my day job I run TY Group, an independent IT practice. If you need extra engineering firepower, here's how we can help:",
+      heading: 'IT solutions, done right',
+      intro: "Outside my day job I run Tyess Group, an independent IT practice. If you need extra engineering firepower, here's how we can help:",
       items: [
         { title: 'Custom development', desc: 'Web apps, dashboards, and MVPs built with React, Next.js, TypeScript, and Node.js — from idea to shipped product.' },
         { title: 'Technical consulting', desc: "Architecture reviews, scaling advice, and hands-on help untangling a codebase that's outgrown its foundations." },
@@ -227,8 +227,8 @@ export const translations = {
     },
     services: {
       eyebrow: 'Услуги',
-      heading: 'TY Group — качественные IT-решения',
-      intro: 'Помимо основной работы я развиваю TY Group — самостоятельную IT-практику (ИП). Если нужны дополнительные инженерные руки, вот чем можем помочь:',
+      heading: 'Качественные IT-решения',
+      intro: 'Помимо основной работы я развиваю Tyess Group — самостоятельную IT-практику (ИП). Если нужны дополнительные инженерные руки, вот чем можем помочь:',
       items: [
         { title: 'Разработка на заказ', desc: 'Веб-приложения, дашборды и MVP на React, Next.js, TypeScript и Node.js — от идеи до готового продукта.' },
         { title: 'Техническое консультирование', desc: 'Архитектурные ревью, советы по масштабированию и практическая помощь с кодовой базой, которая переросла свои основания.' },
@@ -353,8 +353,8 @@ export const translations = {
     },
     services: {
       eyebrow: 'Қызметтер',
-      heading: 'TY Group — сапалы IT-шешімдер',
-      intro: 'Негізгі жұмыстан бөлек мен TY Group атты дербес IT-практикамды жүргіземін (жеке кәсіпкер). Қосымша инженерлік күш қажет болса, біз мынада көмектесе аламыз:',
+      heading: 'Сапалы IT-шешімдер',
+      intro: 'Негізгі жұмыстан бөлек мен Tyess Group атты дербес IT-практикамды жүргіземін (жеке кәсіпкер). Қосымша инженерлік күш қажет болса, біз мынада көмектесе аламыз:',
       items: [
         { title: 'Тапсырыс бойынша әзірлеу', desc: 'React, Next.js, TypeScript және Node.js негізінде веб-қосымшалар, дашбордтар және MVP — идеядан дайын өнімге дейін.' },
         { title: 'Техникалық консультация', desc: 'Архитектураны қарау, масштабтау бойынша кеңестер және өз негізінен асып кеткен кодтық базамен практикалық көмек.' },

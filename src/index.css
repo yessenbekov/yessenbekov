@@ -5,11 +5,13 @@
   --text-h: #f8f9fb;
   --text-dim: #939dad;
   --border: #3c4557;
-  --accent: #7db0ff;
-  --accent-dim: rgba(125, 176, 255, 0.16);
+  --accent: #6b82ff;
+  --accent-dim: rgba(107, 130, 255, 0.16);
+  --accent-2: #22d3ee;
 
   --sans: 'Inter', system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, 'SF Mono', Consolas, monospace;
+  --display: 'Space Grotesk', var(--sans);
+  --mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Consolas, monospace;
 
   font: 16px/1.6 var(--sans);
   color-scheme: dark;
@@ -29,8 +31,9 @@
     --text-h: #12151a;
     --text-dim: #6b7480;
     --border: #e3e6eb;
-    --accent: #2563eb;
-    --accent-dim: rgba(37, 99, 235, 0.08);
+    --accent: #3d5bfd;
+    --accent-dim: rgba(61, 91, 253, 0.08);
+    --accent-2: #0891b2;
     color-scheme: light;
   }
 }

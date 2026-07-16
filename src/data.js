@@ -69,6 +69,7 @@ export const projectsMeta = [
   {
     id: 'kokpar3d',
     name: 'Kokpar 3D',
+    image: '/projects/kokpar3d.jpg',
     stack: ['React', 'Three.js', 'Supabase'],
     links: [
       { label: 'GitHub', href: 'https://github.com/yessenbekov/kokpar_app' },
@@ -77,6 +78,7 @@ export const projectsMeta = [
   {
     id: 'daukey',
     name: 'Daukey',
+    image: '/projects/daukey.jpg',
     stack: ['Next.js', 'TypeScript'],
     links: [
       { label: 'Live', href: 'https://daukey-app.vercel.app' },
@@ -94,6 +96,7 @@ export const projectsMeta = [
   {
     id: 'unilab',
     name: 'Unilab',
+    image: '/projects/unilab.jpg',
     stack: ['Next.js', 'TypeScript'],
     links: [
       { label: 'Live', href: 'https://unilab-app.vercel.app' },
@@ -103,6 +106,7 @@ export const projectsMeta = [
   {
     id: 'codequest',
     name: 'CodeQuest',
+    image: '/projects/codequest.jpg',
     stack: ['JavaScript', 'PWA'],
     links: [
       { label: 'Live', href: 'https://codequest-rho-rust.vercel.app' },

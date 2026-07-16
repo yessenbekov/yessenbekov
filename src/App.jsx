@@ -1,12 +1,31 @@
+import { useEffect } from 'react'
 import { profile, socials, experienceMeta, educationMeta, projectsMeta } from './data'
 import { useLanguage } from './i18n/LanguageContext'
 import LanguageSwitcher from './LanguageSwitcher'
 import Icon from './Icon'
+import Logo, { Avatar } from './Logo'
 import './App.css'
 
 function App() {
   const { t } = useLanguage()
   const year = new Date().getFullYear()
+
+  useEffect(() => {
+    const sections = document.querySelectorAll('main section')
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('in-view')
+            observer.unobserve(entry.target)
+          }
+        })
+      },
+      { threshold: 0.15 },
+    )
+    sections.forEach((el) => observer.observe(el))
+    return () => observer.disconnect()
+  }, [])
 
   return (
     <>
@@ -16,8 +35,13 @@ function App() {
             <p className="eyebrow">{t.hero.location}</p>
             <LanguageSwitcher />
           </div>
-          <h1>{profile.name}</h1>
-          <p className="role">{t.hero.title}</p>
+          <div className="hero-identity">
+            <Avatar size={64} />
+            <div>
+              <h1>{profile.name}</h1>
+              <p className="role">{t.hero.title}</p>
+            </div>
+          </div>
           <p className="tagline">{t.hero.tagline}</p>
           <nav className="social-row" aria-label="Social links">
             {socials.map((s) => (
@@ -43,6 +67,9 @@ function App() {
 
         <section id="services" aria-label={t.sections.services}>
           <h2>{t.sections.services}</h2>
+          <div className="services-brand">
+            <Logo size={40} />
+          </div>
           <h3 className="services-heading">{t.services.heading}</h3>
           <p>{t.services.intro}</p>
 
@@ -110,6 +137,11 @@ function App() {
               const pt = t.projects[p.id]
               return (
                 <article key={p.id} className="project-card">
+                  {p.image && (
+                    <div className="project-thumb">
+                      <img src={p.image} alt="" loading="lazy" />
+                    </div>
+                  )}
                   <h3>{p.name}</h3>
                   <p>{pt.description}</p>
                   <ul className="stack">
