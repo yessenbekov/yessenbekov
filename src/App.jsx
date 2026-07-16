@@ -41,6 +41,34 @@ function App() {
           </ul>
         </section>
 
+        <section id="services" aria-label={t.sections.services}>
+          <h2>{t.sections.services}</h2>
+          <h3 className="services-heading">{t.services.heading}</h3>
+          <p>{t.services.intro}</p>
+
+          <div className="services-grid">
+            {t.services.items.map((item) => (
+              <div key={item.title} className="service-card">
+                <h4>{item.title}</h4>
+                <p>{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          <div className="services-meta">
+            <div>
+              <h4>{t.services.forWhoLabel}</h4>
+              <p>{t.services.forWho}</p>
+            </div>
+            <div>
+              <h4>{t.services.engagementLabel}</h4>
+              <p>{t.services.engagement}</p>
+            </div>
+          </div>
+
+          <a className="services-cta" href={`mailto:${profile.email}`}>{t.services.cta} &rarr;</a>
+        </section>
+
         <section id="experience" aria-label={t.sections.experience}>
           <h2>{t.sections.experience}</h2>
           <ol className="timeline">
@@ -100,34 +128,6 @@ function App() {
               )
             })}
           </div>
-        </section>
-
-        <section id="services" aria-label={t.sections.services}>
-          <h2>{t.sections.services}</h2>
-          <h3 className="services-heading">{t.services.heading}</h3>
-          <p>{t.services.intro}</p>
-
-          <div className="services-grid">
-            {t.services.items.map((item) => (
-              <div key={item.title} className="service-card">
-                <h4>{item.title}</h4>
-                <p>{item.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          <div className="services-meta">
-            <div>
-              <h4>{t.services.forWhoLabel}</h4>
-              <p>{t.services.forWho}</p>
-            </div>
-            <div>
-              <h4>{t.services.engagementLabel}</h4>
-              <p>{t.services.engagement}</p>
-            </div>
-          </div>
-
-          <a className="services-cta" href={`mailto:${profile.email}`}>{t.services.cta} &rarr;</a>
         </section>
       </main>
 
