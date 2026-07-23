@@ -47,7 +47,7 @@ export const translations = {
         role: 'Frontend Developer',
         location: 'Singapore',
         points: [
-          'Built a digital securities and security token trading platform for global private-market deals — VC, private equity, real estate, digital SPACs.',
+          'Built a digital securities and security token trading platform for global private-market deals: VC, private equity, real estate, digital SPACs.',
           'Used RESTful APIs for real-time dashboard data.',
         ],
       },
@@ -86,16 +86,16 @@ export const translations = {
     },
     projects: {
       kokpar3d: {
-        description: 'Browser-based 3D take on kokpar, the traditional Kazakh horseback game — real-time rendering with Three.js and a React UI layer.',
+        description: 'Browser-based 3D take on kokpar, the traditional Kazakh horseback game, with real-time rendering via Three.js and a React UI layer.',
       },
       daukey: {
-        description: 'Web platform for a kokpar sports club — team info, schedules, and news for the community.',
+        description: 'Web platform for a kokpar sports club: team info, schedules, and news for the community.',
       },
       shezhire: {
-        description: 'Genealogy tracker for horses — records pedigree and lineage for breeders.',
+        description: 'Genealogy tracker for horses that records pedigree and lineage for breeders.',
       },
       unilab: {
-        description: 'Web presence for a medical organization — services, staff, and contact information.',
+        description: 'Web presence for a medical organization: services, staff, and contact information.',
       },
       codequest: {
         description: 'Interactive PWA for learning programming languages through hands-on challenges.',
@@ -106,16 +106,16 @@ export const translations = {
       heading: 'IT solutions, done right',
       intro: "Outside my day job I run Tyess Group, an independent IT practice. If you need extra engineering firepower, here's how we can help:",
       items: [
-        { title: 'Custom development', desc: 'Web apps, dashboards, and MVPs built with React, Next.js, TypeScript, and Node.js — from idea to shipped product.' },
+        { title: 'Custom development', desc: 'Web apps, dashboards, and MVPs built with React, Next.js, TypeScript, and Node.js, from idea to shipped product.' },
         { title: 'Technical consulting', desc: "Architecture reviews, scaling advice, and hands-on help untangling a codebase that's outgrown its foundations." },
-        { title: 'Code & architecture audits', desc: 'A structured look at your codebase — risks, technical debt, and a prioritized roadmap to fix it.' },
+        { title: 'Code & architecture audits', desc: 'A structured look at your codebase: risks, technical debt, and a prioritized roadmap to fix it.' },
         { title: 'Team building & hiring', desc: 'Technical interviews, hiring processes, and building a frontend team that ships reliably.' },
         { title: 'Mentoring & code review', desc: "Raising a team's engineering bar through pairing, review practices, and architecture discussions." },
       ],
       forWhoLabel: 'Who we work with',
       forWho: 'Startups without an in-house tech team, businesses that need an extra expert hand, and agencies looking for outsource or outstaff frontend capacity.',
       engagementLabel: 'How we work',
-      engagement: "One-off projects, ongoing consulting, or hourly engagement — whatever fits the task.",
+      engagement: 'One-off projects, ongoing consulting, or hourly engagement: whatever fits the task.',
       cta: 'Get in touch',
     },
     footer: {
@@ -138,10 +138,10 @@ export const translations = {
     },
     about: {
       bio1: `Frontend Team Lead с опытом 10+ лет в разработке и масштабировании
-      веб-платформ, последние несколько лет — в FinTech. Руковожу
+      веб-платформ, последние несколько лет в FinTech. Руковожу
       frontend-командой в DNA Payments: отвечаю за архитектурные решения,
       стандарты код-ревью и технический найм, при этом остаюсь на связи с
-      кодом — React, TypeScript, MobX, Next.js, Ant Design.`,
+      кодом: React, TypeScript, MobX, Next.js, Ant Design.`,
       bio2: `Помимо основной работы важно, как устроена команда: менторю
       инженеров, выстраиваю устойчивые практики код-ревью и принимаю
       архитектурные решения, которые не разваливаются при росте продукта.
@@ -171,7 +171,7 @@ export const translations = {
         role: 'Frontend Developer',
         location: 'Сингапур',
         points: [
-          'Разрабатывал платформу для торговли цифровыми ценными бумагами и security-токенами для глобальных сделок private markets — венчур, private equity, недвижимость, digital SPAC.',
+          'Разрабатывал платформу для торговли цифровыми ценными бумагами и security-токенами для глобальных сделок private markets: венчур, private equity, недвижимость, digital SPAC.',
           'Использовал RESTful API для данных дашборда в реальном времени.',
         ],
       },
@@ -210,16 +210,16 @@ export const translations = {
     },
     projects: {
       kokpar3d: {
-        description: 'Браузерная 3D-версия кокпара, традиционной казахской конной игры — рендеринг в реальном времени на Three.js и React-интерфейс.',
+        description: 'Браузерная 3D-версия кокпара, традиционной казахской конной игры, с рендерингом в реальном времени на Three.js и React-интерфейсом.',
       },
       daukey: {
-        description: 'Веб-платформа кокпар-клуба — информация о команде, расписание и новости для сообщества.',
+        description: 'Веб-платформа кокпар-клуба: информация о команде, расписание и новости для сообщества.',
       },
       shezhire: {
-        description: 'Трекер родословной лошадей — фиксирует происхождение и родословную для коневодов.',
+        description: 'Трекер родословной лошадей: фиксирует происхождение и родословную для коневодов.',
       },
       unilab: {
-        description: 'Веб-присутствие медицинской организации — услуги, персонал и контактная информация.',
+        description: 'Веб-присутствие медицинской организации: услуги, персонал и контактная информация.',
       },
       codequest: {
         description: 'Интерактивное PWA для изучения языков программирования через практические задания.',
@@ -228,18 +228,18 @@ export const translations = {
     services: {
       eyebrow: 'Услуги',
       heading: 'Качественные IT-решения',
-      intro: 'Помимо основной работы я развиваю Tyess Group — самостоятельную IT-практику (ИП). Если нужны дополнительные инженерные руки, вот чем можем помочь:',
+      intro: 'Помимо основной работы я развиваю Tyess Group, самостоятельную IT-практику (ИП). Если нужны дополнительные инженерные руки, вот чем можем помочь:',
       items: [
-        { title: 'Разработка на заказ', desc: 'Веб-приложения, дашборды и MVP на React, Next.js, TypeScript и Node.js — от идеи до готового продукта.' },
+        { title: 'Разработка на заказ', desc: 'Веб-приложения, дашборды и MVP на React, Next.js, TypeScript и Node.js, от идеи до готового продукта.' },
         { title: 'Техническое консультирование', desc: 'Архитектурные ревью, советы по масштабированию и практическая помощь с кодовой базой, которая переросла свои основания.' },
-        { title: 'Аудит кода и архитектуры', desc: 'Структурированный разбор кодовой базы — риски, технический долг и приоритизированный план исправлений.' },
+        { title: 'Аудит кода и архитектуры', desc: 'Структурированный разбор кодовой базы: риски, технический долг и приоритизированный план исправлений.' },
         { title: 'Построение команды и найм', desc: 'Технические собеседования, процессы найма и формирование frontend-команды, которая стабильно выпускает продукт.' },
         { title: 'Менторство и код-ревью', desc: 'Поднимаю инженерную планку команды через парную работу, практики ревью и обсуждение архитектуры.' },
       ],
       forWhoLabel: 'С кем работаем',
       forWho: 'Со стартапами без своей технической команды, с бизнесом, которому нужна дополнительная экспертная рука, и с агентствами, которым нужен аутсорс или аутстафф frontend-разработки.',
       engagementLabel: 'Формат работы',
-      engagement: 'Разовые проекты, постоянное консультирование или почасовая занятость — под задачу.',
+      engagement: 'Разовые проекты, постоянное консультирование или почасовая занятость, в зависимости от задачи.',
       cta: 'Связаться',
     },
     footer: {
@@ -262,7 +262,7 @@ export const translations = {
     },
     about: {
       bio1: `10+ жылдық тәжірибесі бар Frontend Team Lead-пін, веб-платформаларды
-      құру және масштабтаумен айналысамын, соңғы бірнеше жыл — FinTech
+      құру және масштабтаумен айналысамын, соңғы бірнеше жыл FinTech
       саласында. DNA Payments компаниясында frontend командасын басқарамын:
       архитектуралық шешімдерге, код-ревью стандарттарына және техникалық
       жалдауға жауаптымын, сонымен қатар React, TypeScript, MobX, Next.js,
@@ -336,16 +336,16 @@ export const translations = {
     },
     projects: {
       kokpar3d: {
-        description: 'Дәстүрлі қазақ ат үстіндегі ойыны кокпардың браузерлік 3D нұсқасы — Three.js негізінде нақты уақытта рендеринг және React интерфейсі.',
+        description: 'Дәстүрлі қазақ ат үстіндегі ойыны кокпардың браузерлік 3D нұсқасы, Three.js негізінде нақты уақытта рендеринг және React интерфейсімен.',
       },
       daukey: {
-        description: 'Кокпар клубының веб-платформасы — команда туралы ақпарат, кесте және қауымдастыққа арналған жаңалықтар.',
+        description: 'Кокпар клубының веб-платформасы: команда туралы ақпарат, кесте және қауымдастыққа арналған жаңалықтар.',
       },
       shezhire: {
-        description: 'Жылқылардың шежіресін тіркейтін қосымша — өсіруші үшін тектілік пен шежіре жазбалары.',
+        description: 'Жылқылардың шежіресін тіркейтін қосымша: өсіруші үшін тектілік пен шежіре жазбалары.',
       },
       unilab: {
-        description: 'Медициналық ұйымның веб-беті — қызметтер, қызметкерлер және байланыс ақпараты.',
+        description: 'Медициналық ұйымның веб-беті: қызметтер, қызметкерлер және байланыс ақпараты.',
       },
       codequest: {
         description: 'Практикалық тапсырмалар арқылы бағдарламалау тілдерін үйренуге арналған интерактивті PWA.',
@@ -356,16 +356,16 @@ export const translations = {
       heading: 'Сапалы IT-шешімдер',
       intro: 'Негізгі жұмыстан бөлек мен Tyess Group атты дербес IT-практикамды жүргіземін (жеке кәсіпкер). Қосымша инженерлік күш қажет болса, біз мынада көмектесе аламыз:',
       items: [
-        { title: 'Тапсырыс бойынша әзірлеу', desc: 'React, Next.js, TypeScript және Node.js негізінде веб-қосымшалар, дашбордтар және MVP — идеядан дайын өнімге дейін.' },
+        { title: 'Тапсырыс бойынша әзірлеу', desc: 'React, Next.js, TypeScript және Node.js негізінде веб-қосымшалар, дашбордтар және MVP, идеядан дайын өнімге дейін.' },
         { title: 'Техникалық консультация', desc: 'Архитектураны қарау, масштабтау бойынша кеңестер және өз негізінен асып кеткен кодтық базамен практикалық көмек.' },
-        { title: 'Код және архитектура аудиті', desc: 'Кодтық базаны құрылымды түрде талдау — тәуекелдер, техникалық қарыз және түзету жоспарының басымдылығы.' },
+        { title: 'Код және архитектура аудиті', desc: 'Кодтық базаны құрылымды түрде талдау: тәуекелдер, техникалық қарыз және түзету жоспарының басымдылығы.' },
         { title: 'Команда құру және жалдау', desc: 'Техникалық сұхбаттар, жалдау процестері және тұрақты нәтиже беретін frontend командасын құру.' },
         { title: 'Тәлімгерлік және код-ревью', desc: 'Жұптық жұмыс, ревью тәжірибелері және архитектураны талқылау арқылы команданың инженерлік деңгейін көтеру.' },
       ],
       forWhoLabel: 'Кіммен жұмыс істейміз',
       forWho: 'Өз техникалық командасы жоқ стартаптармен, қосымша сарапшы қолды қажет ететін бизнеспен және аутсорс немесе аутстафф frontend қуатын іздейтін агенттіктермен.',
       engagementLabel: 'Жұмыс форматы',
-      engagement: 'Бір реттік жобалар, тұрақты консультация немесе сағаттық жұмыс — тапсырмаға байланысты.',
+      engagement: 'Бір реттік жобалар, тұрақты консультация немесе сағаттық жұмыс, тапсырмаға байланысты.',
       cta: 'Хабарласу',
     },
     footer: {
