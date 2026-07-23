@@ -45,7 +45,7 @@ export const translations = {
       },
       investax: {
         role: 'Frontend Developer',
-        location: 'Singapore',
+        location: 'Singapore · Freelance, concurrent with Halyk Bank',
         points: [
           'Built a digital securities and security token trading platform for global private-market deals: VC, private equity, real estate, digital SPACs.',
           'Used RESTful APIs for real-time dashboard data.',
@@ -53,7 +53,7 @@ export const translations = {
       },
       titanium: {
         role: 'Full Stack Developer',
-        location: 'Almaty, Kazakhstan',
+        location: 'Almaty, Kazakhstan · Freelance, concurrent with Halyk Bank',
         points: [
           'Worked on projects spanning Blockchain, IoT, and ML/AI.',
         ],
@@ -68,7 +68,7 @@ export const translations = {
       },
       primesource: {
         role: 'Frontend Developer',
-        location: 'Almaty, Kazakhstan',
+        location: 'Almaty, Kazakhstan · Freelance, concurrent with Halyk Bank',
         points: [
           'Built a seating-arrangement component for kino.kz, letting users reserve and purchase theater tickets.',
         ],
@@ -169,7 +169,7 @@ export const translations = {
       },
       investax: {
         role: 'Frontend Developer',
-        location: 'Сингапур',
+        location: 'Сингапур · Фриланс, параллельно с Halyk Bank',
         points: [
           'Разрабатывал платформу для торговли цифровыми ценными бумагами и security-токенами для глобальных сделок private markets: венчур, private equity, недвижимость, digital SPAC.',
           'Использовал RESTful API для данных дашборда в реальном времени.',
@@ -177,7 +177,7 @@ export const translations = {
       },
       titanium: {
         role: 'Full Stack Developer',
-        location: 'Алматы, Казахстан',
+        location: 'Алматы, Казахстан · Фриланс, параллельно с Halyk Bank',
         points: [
           'Работал над проектами на стыке блокчейна, IoT и ML/AI.',
         ],
@@ -192,7 +192,7 @@ export const translations = {
       },
       primesource: {
         role: 'Frontend Developer',
-        location: 'Алматы, Казахстан',
+        location: 'Алматы, Казахстан · Фриланс, параллельно с Halyk Bank',
         points: [
           'Разработал компонент рассадки для kino.kz, позволяющий пользователям бронировать и покупать билеты в кинотеатр.',
         ],
@@ -295,7 +295,7 @@ export const translations = {
       },
       investax: {
         role: 'Frontend Developer',
-        location: 'Сингапур',
+        location: 'Сингапур · Фриланс, Halyk Bank-пен қатар',
         points: [
           'Венчурлық капитал, private equity, жылжымайтын мүлік, digital SPAC сияқты жаһандық private market мәмілелеріне арналған цифрлық бағалы қағаздар мен security-токендерді сату платформасын дамыттым.',
           'Дашборд деректерін нақты уақытта көрсету үшін RESTful API қолдандым.',
@@ -303,7 +303,7 @@ export const translations = {
       },
       titanium: {
         role: 'Full Stack Developer',
-        location: 'Алматы, Қазақстан',
+        location: 'Алматы, Қазақстан · Фриланс, Halyk Bank-пен қатар',
         points: [
           'Blockchain, IoT және ML/AI салаларын қамтитын жобалармен жұмыс істедім.',
         ],
@@ -318,7 +318,7 @@ export const translations = {
       },
       primesource: {
         role: 'Frontend Developer',
-        location: 'Алматы, Қазақстан',
+        location: 'Алматы, Қазақстан · Фриланс, Halyk Bank-пен қатар',
         points: [
           'kino.kz үшін орын орналасуын көрсететін компонент жасадым, ол пайдаланушыларға кинотеатр билеттерін брондауға және сатып алуға мүмкіндік береді.',
         ],

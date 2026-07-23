@@ -262,6 +262,7 @@ main h2 {
   aspect-ratio: 16 / 9;
   background: var(--bg);
   border-bottom: 1px solid var(--border);
+  padding: 6px;
 }
 
 .project-thumb img {
@@ -269,6 +270,8 @@ main h2 {
   height: 100%;
   object-fit: cover;
   display: block;
+  border-radius: 4px;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.14);
 }
 
 .project-card h3,
@@ -447,6 +450,13 @@ footer p {
   font-size: 13px;
   color: var(--text-dim);
   margin: 0;
+}
+
+.footer-controls {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 @media (max-width: 640px) {

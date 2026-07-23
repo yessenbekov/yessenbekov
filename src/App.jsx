@@ -166,13 +166,16 @@ function App() {
       <footer>
         <div className="wrap">
           <p>{t.footer.rights.replace('{year}', year)}</p>
-          <nav className="social-row" aria-label="Social links">
-            {socials.map((s) => (
-              <a key={s.label} href={s.href} target="_blank" rel="noreferrer" aria-label={s.label}>
-                <Icon name={s.icon} />
-              </a>
-            ))}
-          </nav>
+          <div className="footer-controls">
+            <nav className="social-row" aria-label="Social links">
+              {socials.map((s) => (
+                <a key={s.label} href={s.href} target="_blank" rel="noreferrer" aria-label={s.label}>
+                  <Icon name={s.icon} />
+                </a>
+              ))}
+            </nav>
+            <LanguageSwitcher />
+          </div>
         </div>
       </footer>
     </>
